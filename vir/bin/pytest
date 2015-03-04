@@ -1,0 +1,7 @@
+#!/home/student/Hudba/flask-skeleton/vir/bin/python
+
+import warnings
+warnings.simplefilter('default', DeprecationWarning)
+
+from logilab.common.pytest import run
+run()

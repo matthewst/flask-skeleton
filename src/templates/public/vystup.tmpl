@@ -1,0 +1,21 @@
+{% from "macros/fields.tmpl" import render_input_field, render_submit %}
+{% extends "shared/layout.tmpl" %}
+
+{% block title %}Karty{% endblock %}
+
+{% block content %}
+<h3>Vložené data</h3>
+<p>Cauko</p>
+
+<div class="form-group">Vložené data</div>
+<table>
+{% for n in data %}
+<tr><td>{{ n.id }}</td>
+<td>{{ n.CISLO_KARTY }}</td>
+<td>{{ n.time }}</td>
+<td>{{ n.WTIME }}</td></tr>
+{% endfor %}
+</table>
+
+
+{% endblock %}
