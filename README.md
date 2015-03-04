@@ -1,6 +1,5 @@
 ## [Flask Skeleton][flask-skeleton]
 Flask Skeleton provides a base structure for a medium-sized Flask app. This incorporates several Flask best practices and is my default setup for whenever I create a new Flask project. This was built and tested with Python 2.
-++
 Here's the stuff you get right off the bat when using Flask-Skeleton:
 * Bootstrap starter template
 * Asset concatenation and minification ([Alembic][alembic] and [Flask-Assets][flask-assets])
